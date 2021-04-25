@@ -44,8 +44,7 @@ static_resources:
           max_ejection_percent: 100,
           interval_ms: 1000,
           base_ejection_time_ms: 60000
-    outlier_detection: 
-      event_log_path: "/deployments/log"
+          event_log_path: "/deployments/log"
 admin:
   access_log_path: "/dev/null"
   address:
