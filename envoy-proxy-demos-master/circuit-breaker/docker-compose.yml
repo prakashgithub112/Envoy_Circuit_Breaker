@@ -23,7 +23,7 @@ services:
       context: ../apps
       dockerfile: Dockerfile-service
     volumes:
-      - ./service-envoy.yaml:/circuit-breaker/service-envoy.yaml
+      - ./service-envoy.yaml:/etc/service-envoy.yaml
     networks:
       envoymesh:
         aliases:
@@ -37,7 +37,7 @@ services:
       context: ../apps
       dockerfile: Dockerfile-service
     volumes:
-      - ./service-envoy-circuitbreaker.yaml:/circuit-breaker/service-envoy.yaml
+      - ./service-envoy-circuitbreaker.yaml:/etc/service-envoy.yaml
     networks:
       envoymesh:
         aliases:
