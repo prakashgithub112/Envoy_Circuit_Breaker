@@ -6,7 +6,7 @@ services:
       context: ../apps
       dockerfile: Dockerfile-frontenvoy
     volumes:
-      - ./front-envoy.yaml:/circuit-breaker/front-envoy.yaml
+      - ./front-envoy.yaml:/etc/front-envoy.yaml
     networks:
       - envoymesh
     expose:
