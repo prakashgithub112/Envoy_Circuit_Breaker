@@ -45,10 +45,10 @@ static_resources:
                 address: 127.0.0.1
                 port_value: 8080
     outlier_detection : 
-      consecutive_5xx: 1
-      max_ejection_percent: 100
-      interval: 1000
-      base_ejection_time: 60000
+      "consecutive_5xx": "1"
+      "max_ejection_percent": "100"
+      "interval": "1000"
+      "base_ejection_time": "60000"
 admin:
   access_log_path: "/dev/null"
   address:
