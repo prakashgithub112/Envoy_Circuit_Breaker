@@ -47,7 +47,7 @@ static_resources:
     outlier_detection : 
       "consecutive_5xx": "1"
       "max_ejection_percent": "100"
-      "interval": "1000"
+      "interval_ms": "1000"
       "base_ejection_time_ms": "60000"
 admin:
   access_log_path: "/dev/null"
